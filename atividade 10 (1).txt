@@ -1,0 +1,40 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+        cadeia nome, cidade, bairro
+        inteiro idade
+
+
+        escreva("Digite o nome: ")
+        leia(nome)
+
+        escreva("Digite a cidade: ")
+        leia(cidade)
+
+        escreva("Digite a idade: ")
+        leia(idade)
+
+        escreva("Digite o bairro: ")
+        leia(bairro)
+
+        escreva("\n--- DADOS INFORMADOS ---\n")
+        escreva("Nome: ", nome, "\n")
+        escreva("Cidade: ", cidade, "\n")
+        escreva("Idade: ", idade, " anos\n")
+        escreva("Bairro: ", bairro, "\n")
+
+        se (idade >= 18)
+        {
+            escreva("Maior de idade")
+        }
+        senao
+        {
+            escreva("Menor de idade")
+        }
+    }
+}
+		
+	}
+}

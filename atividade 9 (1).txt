@@ -1,0 +1,18 @@
+programa
+{
+	funcao inicio ()
+	{
+
+        real salario, novoSalario
+
+        escreva("Digite o salario atual: R$ ")
+        leia(salario)
+
+        novoSalario = salario * 1.15
+
+        escreva("Novo salario com reajuste de 15%: R$ ", novoSalario)
+    }
+}
+		
+	}
+}

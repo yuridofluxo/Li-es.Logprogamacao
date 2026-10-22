@@ -1,0 +1,20 @@
+programa
+{
+	funcao inicio ()
+	{
+        real valorHora, salario
+        inteiro horas
+
+        escreva("Valor ganho por hora: R$ ")
+        leia(valorHora)
+
+        escreva("Horas trabalhadas no mes: ")
+        leia(horas)
+
+        salario = valorHora * horas
+
+        escreva("Salario total do mes: R$ ", salario)
+    }
+}
+	}
+}

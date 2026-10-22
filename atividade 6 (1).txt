@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		
+        inteiro n1, n2, soma
+
+
+        escreva("Digite o primeiro numero: ")
+        leia(n1)
+
+        escreva("Digite o segundo numero: ")
+        leia(n2)
+
+        soma = (n1 * n1) + (n2 * n2)
+
+        escreva("Soma dos quadrados: ", soma)
+    }
+}
+	}
+}

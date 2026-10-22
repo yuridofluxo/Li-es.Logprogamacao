@@ -1,0 +1,27 @@
+programa
+{
+	funcao inicio ()
+	{
+	
+        real temperatura
+
+        escreva("Digite a temperatura em Celsius: ")
+        leia(temperatura)
+
+        se (temperatura < 10)
+        {
+            escreva("Voce vai congelar!")
+        }
+        senao se (temperatura < 20)
+        {
+            escreva("Esta frio!")
+        }
+        senao
+        {
+            escreva("Esta agradavel!")
+        }
+    }
+}	
+		
+	}
+}

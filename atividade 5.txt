@@ -1,0 +1,21 @@
+programa
+{
+	funcao inicio ()
+	{
+
+   
+    
+        real deposito, total
+
+
+        escreva("Digite o valor do deposito: R$ ")
+        leia(deposito)
+
+        total = deposito * 1.05
+
+        escreva("Valor apos um mes: R$ ", total)
+    }
+}	
+		
+	}
+}

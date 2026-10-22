@@ -1,0 +1,61 @@
+programa
+{
+	funcao inicio ()
+	{
+
+        real n1, n2, resultado
+        inteiro opcao
+
+
+        escreva("Digite o primeiro numero: ")
+        leia(n1)
+
+        escreva("Digite o segundo numero: ")
+        leia(n2)
+
+        escreva("\n1 - Somar\n")
+        escreva("2 - Subtrair\n")
+        escreva("3 - Dividir\n")
+        escreva("4 - Multiplicar\n")
+        escreva("Escolha uma opcao: ")
+        leia(opcao)
+
+        se (opcao == 1)
+        {
+            resultado = n1 + n2
+            escreva("Resultado: ", resultado)
+        }
+        senao se (opcao == 2)
+        {
+            resultado = n1 - n2
+            escreva("Resultado: ", resultado)
+        }
+        senao se (opcao == 3)
+        {
+            se (n2 > 0 ou n2 < 0)
+             
+            {
+                resultado = n1 / n2
+                escreva("Resultado: ", resultado)
+            }
+            senao
+            {
+                escreva("Erro: divisao por zero!")
+            }
+        }
+        senao se (opcao == 4)
+        {
+            resultado = n1 * n2
+            escreva("Resultado: ", resultado)
+        }
+        senao
+        {
+            escreva("Opcao invalida!")
+        }
+    }
+}
+
+
+		
+	}
+}
